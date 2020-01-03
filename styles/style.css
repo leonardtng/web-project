@@ -36,6 +36,8 @@ body{
 
 header{
     text-align: center;
+    text-shadow: 3px 3px 1px gray;
+    font-size: 30px;
 }
 
 h2{
