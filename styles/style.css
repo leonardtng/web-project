@@ -23,7 +23,32 @@
     color: orange;
 }
 
+
+.topbar{
+    height: 45px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(223, 102, 223);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.log-in-info{
+    position: absolute;
+    left: 210px;
+    top: 10px;
+}
+
+.change-username{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+
 body{
+    top: 0px;
     background-color: lightgray;
 }
 
@@ -39,6 +64,7 @@ header{
     text-shadow: 3px 3px 1px gray;
     font-size: 30px;
 }
+
 
 h2{
     color:purple;
@@ -58,3 +84,5 @@ hr{
     padding: 5px 15px 5px 15px;
 
 }
+
+
