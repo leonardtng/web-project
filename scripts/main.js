@@ -15,8 +15,12 @@ logInInfo.textContent = 'You are not logged in'
 
 function setUsername() {
   let myName = prompt('Please enter your name: ');
-  localStorage.setItem('Name', myName);
-  logInInfo.textContent = myName + ' is logged in';
+  if (myName === '' || myName === null){
+    setUsername();
+  }else{
+    localStorage.setItem('Name', myName);
+    logInInfo.textContent = myName + ' is logged in';
+  }
 }
 
 if (!localStorage.getItem('Name')) {
